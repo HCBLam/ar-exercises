@@ -18,6 +18,4 @@ puts "The average annual revenue for all stores is #{Store.average("annual_reven
 # puts "The average annual revenue for all stores is #{total_revenue / Store.count}."
 
 puts "#{profitable_stores} stores are generating $1M or more in annual sales."
-# profitable.each do |store|
-#   puts "#{store.name} has an annual revenue of #{store.annual_revenue}."
-# end
+# profitable.each { |store| puts "#{store.name} has an annual revenue of #{store.annual_revenue}." }

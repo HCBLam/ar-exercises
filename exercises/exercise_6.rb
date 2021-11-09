@@ -24,6 +24,4 @@ end
 
 # store1_employees = Employee.where(store_id: 1)
 
-# store1_employees.each do |employee|
-#   puts "#{employee.first_name} #{employee.last_name} works at store 1."
-# end
+# store1_employees.each { |employee| puts "#{employee.first_name} #{employee.last_name} works at store 1." }
